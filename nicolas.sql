@@ -1,0 +1,8 @@
+
+CREATE TABLE nicolas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    apellido VARCHAR(100) NOT NULL,
+    edad INT,
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
